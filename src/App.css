@@ -1,0 +1,39 @@
+:root {
+  --box-shadow: 3px 3px 5px 5px rgba(101, 175, 10, 0.5);
+  --bg-color: rgb(40, 47, 97);
+}
+html {
+  scroll-behavior: smooth;
+}
+.contact-icon {
+  background-color: black;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid rgb(136, 186, 243);
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-icon:hover {
+  height: 45px;
+  width: 45px;
+}
+
+.icon {
+  padding: 5px;
+  border-radius: 10%;
+  border: 2px solid green;
+}
+
+.inputins {
+  border: 1px solid gray;
+  padding: 5px;
+  background-color: rgba(245, 245, 220, 0.041);
+  border-radius: 5%;
+  font-size: 18px;
+  width: 100%;
+}

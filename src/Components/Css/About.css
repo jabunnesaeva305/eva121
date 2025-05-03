@@ -1,0 +1,41 @@
+.img2 {
+  width: 250px;
+  height: 250px;
+  border: 6px solid yellow;
+  border-radius: 100%;
+  animation-name: rounded;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rounded {
+  0% {
+    border-color: blueviolet;
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px blueviolet;
+  }
+
+  25% {
+    border-color: rgb(23, 167, 47);
+    transform: translate(0, 5px);
+    box-shadow: 10px 10px 100px 50px rgb(61, 173, 27);
+  }
+
+  50% {
+    border-color: rgb(126, 7, 106);
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(126, 7, 106);
+  }
+
+  75% {
+    border-color: #ff6702;
+    transform: translate(0, 5px);
+    box-shadow: 10px 10px 100px 50px rgb(248, 101, 2);
+  }
+
+  100% {
+    border-color: #e6ff02;
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px rgb(244, 248, 2);
+  }
+}

@@ -10,9 +10,9 @@ const Footer = () => {
         <Link to="https://www.facebook.com/jabunnesa.eva">
           <FaFacebookF className=" contact-icon text-[#1877F2]" />
         </Link>
-        {/* <Link to="https://www.linkedin.com/in/mohammad-majharul-islam">
+        <Link to="https://www.linkedin.com/in/jabunnesa-eva">
                       <GrLinkedin className="contact-icon text-[#0077B5]" />
-                    </Link> */}
+                    </Link>
         <Link to="https://www.instagram.com/jabunnesaeva5">
           <FaSquareInstagram className="contact-icon text-[#962fbf]" />
         </Link>

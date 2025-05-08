@@ -108,7 +108,7 @@ const Skills = () => {
           animate="animate"
           className="flex items-center text-2xl border-2 border-sky-800 rounded-2xl p-3 font-semibold"
         >
-          <GiArtificialIntelligence className=" rounded-md text-[#589636] text-2xl " /> ArtificialIntelligence
+          <GiArtificialIntelligence className=" rounded-md text-[#589636] text-2xl " /> Artificial Intelligence
         </motion.p>
         <motion.p
           variants={iconverient(2.5)}

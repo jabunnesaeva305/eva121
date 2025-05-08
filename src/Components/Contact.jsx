@@ -17,7 +17,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          toast.success("email send sucessfully!");
+          toast.success("Your email has been sent sucessfully!");
           console.log("SUCCESS!");
         },
         (error) => {
@@ -36,7 +36,7 @@ const Contact = () => {
             <div>
               <input
                 type="text"
-                placeholder=" Please Enter your Name"
+                placeholder=" Please Enter Your Name"
                 className=" inputins "
                 name="user_name"
                 required
@@ -46,7 +46,7 @@ const Contact = () => {
             <div>
               <input
                 type="email"
-                placeholder=" Please Enter your Email"
+                placeholder=" Please Enter Your Email"
                 className=" inputins "
                 name="user_email"
                 required
@@ -56,7 +56,7 @@ const Contact = () => {
             <div>
               <input
                 type="text"
-                placeholder=" Please  your Subject"
+                placeholder=" Please Enter Your Subject"
                 className=" inputins "
                 name="subject"
                 required
@@ -67,7 +67,7 @@ const Contact = () => {
               <textarea
                 type="text"
                 className="inputins "
-                placeholder="write your message"
+                placeholder="Write Your Message Here"
                 name="message"
                 id=""
                 required

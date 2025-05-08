@@ -25,7 +25,7 @@ const Navbar = () => {
         className="pb-2 mb-2 md:mr-4 text-xl hover:border-b-2 hover:border-b-red-500 "
       // className="mb-2 md:mr-4 btn font-semibold btn-secondary hover:bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
       >
-        Project
+        Projects
       </a>
 
       <a
@@ -41,7 +41,7 @@ const Navbar = () => {
         className="pb-2 mb-2 md:mr-4 text-xl hover:border-b-2 hover:border-b-red-500 "
       // className="mb-2 md:mr-4  btn font-semibold btn-secondary hover:bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
       >
-        Contact Me
+        Contact me
       </a>
     </>
   );

@@ -52,7 +52,7 @@ const About = () => {
           >
 
           <motion.h4 className=" text -2xl font-bold">
-            Aspiring Machine Learning Engineer | CSE Student at North Western University
+            Python | ML | DL | Web Developer | CSE Student at North Western University, Khulna
           </motion.h4>
           <motion.p
             variants={container(0.6)}

@@ -36,7 +36,7 @@ const Contact = () => {
             <div>
               <input
                 type="text"
-                placeholder=" Please Enter Your Name"
+                placeholder="Enter your name"
                 className=" inputins "
                 name="user_name"
                 required
@@ -46,7 +46,7 @@ const Contact = () => {
             <div>
               <input
                 type="email"
-                placeholder=" Please Enter Your Email"
+                placeholder="Enter your email"
                 className=" inputins "
                 name="user_email"
                 required
@@ -56,7 +56,7 @@ const Contact = () => {
             <div>
               <input
                 type="text"
-                placeholder=" Please Enter Your Subject"
+                placeholder="Enter your subject"
                 className=" inputins "
                 name="subject"
                 required
@@ -67,7 +67,7 @@ const Contact = () => {
               <textarea
                 type="text"
                 className="inputins "
-                placeholder="Write Your Message Here"
+                placeholder="Write your message here"
                 name="message"
                 id=""
                 required

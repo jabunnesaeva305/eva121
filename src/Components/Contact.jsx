@@ -31,7 +31,7 @@ const Contact = () => {
     <div className=" mt-16 w-full md:max-w-[80%] mx-auto" id="contact">
       <div className=" md:flex justify-between gap-3 border rounded-md p-4">
         <div className=" flex-1 p-5 space-y-2">
-          <h2 className="text-3xl font-bold">Contact Me</h2>
+          <h2 className="text-3xl font-bold">Contact me</h2>
           <form ref={form} onSubmit={sendEmail}>
             <div>
               <input

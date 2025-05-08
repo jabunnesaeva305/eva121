@@ -22,7 +22,7 @@ const Footer = () => {
                     </Link> */}
       </div>
       <p className=" text-center">
-        Copyright © ${new Date().getFullYear()} - All right reserved by{" "}
+        Copyright © ${new Date().getFullYear()} - All rights are reserved by{" "}
         <span className=" text-rose-400">Jabunnesa Eva.</span>
       </p>
     </div>

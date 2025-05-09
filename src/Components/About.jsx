@@ -2,7 +2,7 @@ import eva from "../assets/pic.jpg";
 import { motion } from "framer-motion";
 import "./Css/About.css";
 import "../App.css";
-import cv from "../assets/JabunnesaEva_Cv.pdf";
+import cv from "../assets/Eva_Resume.pdf";
 import { Link } from "react-router-dom";
 import { FaDownload, FaFacebookF } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
